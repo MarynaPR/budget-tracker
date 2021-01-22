@@ -17,7 +17,7 @@ request.onsuccess = function (event) {
 };
 
 request.onerror = function (event) {
-    console.log(event.target.errorCode);
+    console.log("something's wrong" +  event.target.errorCode);
 };
 // if no internet, new budget saved
 function saveRecord(record) {
@@ -33,9 +33,10 @@ function uploadBudget() {
     const budgetObjectStore = transaction.objectStore('new_budget');
     // get all records from store and set to a variable
     const getAll = budgetObjectStore.getAll();
+
     getAll.onsuccess = function () {
         if (getAll.result.length > 0) {
-            fetch('/api/budgets', {//api/transactions
+            fetch('/api/transaction/bulk', {//api/transactions
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
                 headers: {

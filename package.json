@@ -1,31 +1,29 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "start:dev": "webpack serve --mode=development",
     "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/MarynaPR/budget-tracker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
+    "url": "https://github.com/MarynaPR/budget-tracker/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "homepage": "https://github.com/MarynaPR/budget-tracker#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "webpack-cli": "^4.4.0"
   },
-  "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
-  }
+  "devDependencies": {}
 }
