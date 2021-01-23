@@ -19,7 +19,6 @@ const FILES_TO_CACHE = [
   './icons/icon-512x512.png'
 ];
 
-
 // Install the service worker
 self.addEventListener('install', function (evt) {
   evt.waitUntil(

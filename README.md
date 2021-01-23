@@ -9,7 +9,7 @@ updated budget tracker application that allow offline access and functionality. 
 This application is deplpyed to [Heroku.](https://boiling-plains-58611.herokuapp.com/)
 
 ## Screenshots :camera_flash:
-![]()
+![screenshot](public/images/Screenshot.png)
 
 ## Technology Used :label: 
 
