@@ -1,10 +1,8 @@
 # budget-tracker
 
-
 ## Description :page_with_curl:
 
-This application features
-updated budget tracker application that allow offline access and functionality. The user is able to add expenses and deposits to the budget with or without a connection. If the user enters transactions offline, the total is updated when they're brought back online. 
+This application features budget tracker application that allows offline access and functionality. The user is able to add expenses and deposits to the budget with or without a connection. If the user enters transactions offline, the total is updated when they're brought back online. 
 
 This application is deplpyed to [Heroku.](https://boiling-plains-58611.herokuapp.com/)
 
@@ -19,18 +17,19 @@ This application is deplpyed to [Heroku.](https://boiling-plains-58611.herokuapp
 * javascript
 * html
 * css
-* indexDB
+* indexDb
 * PWA
 
 ## Resources Used :wrench: 
 
 * [Express](https://www.npmjs.com/package/express)
 * [Mongoose](https://www.npmjs.com/package/mongoose)
-* [Mongoose Validation](https://mongoosejs.com/docs/validation.html)
-schematypes.html#string-validators)
 * [ASCII Codes Table](https://ascii.cl/)
 * [semantic-release](npmjs.com/package/semantic-release)
+* [indexDb to build PWA](https://medium.com/jspoint/indexeddb-your-second-step-towards-progressive-web-apps-pwa-dcbcd6cc2076)
+* [using service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers)
 * [heroku devcenter](https://devcenter.heroku.com/articles/config-vars)
+* [heroku push](https://f-a.nz/dev/update-deploy-to-heroku-app/)
 * [emoji-cheat-sheet:for readme](https://github.com/ikatyang/emoji-cheat-sheet)
 
 ## Installation :electric_plug:
@@ -45,6 +44,5 @@ Give :star: if you found this project useful.
 
 ### Questions :question: 
 Feel free to contact me with any questions via email :e-mail: pryadkamaryna@gmail.com. 
-  
 If you'd like to see my other projects, please visit my :octocat: 
 [GitHub](https://github.com/MarynaPR?tab=repositories)
