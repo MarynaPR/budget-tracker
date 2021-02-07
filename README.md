@@ -4,7 +4,7 @@
 
 This application features budget tracker application that allows offline access and functionality. The user is able to add expenses and deposits to the budget with or without a connection. If the user enters transactions offline, the total is updated when they're brought back online. 
 
-This application is deplpyed to [Heroku.](https://boiling-plains-58611.herokuapp.com/)
+This application is deplpyed to [Heroku.](https://budgettrackera.herokuapp.com/)
 
 ## Screenshots :camera_flash:
 ![screenshot](public/images/Screenshot.png)
